@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import React, { useState, useEffect, useRef, memo } from 'react';
-import { navLinks } from '../constants/constants';
+import { navLinks } from '../../utils/constants/constants';
 import Links from './links/Links';
 import { FaBars } from "react-icons/fa6";
 // import { LogoutGithub } from '@/lib/action';
