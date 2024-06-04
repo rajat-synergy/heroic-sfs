@@ -1,12 +1,40 @@
-import Heroic from "@/components/Heroic";
-import Image from "next/image";
+import About from "@/components/About";
+import HomeBlogSection from "@/components/Blog/HomeBlogSection";
+import CallToAction from "@/components/CallToAction";
+import Clients from "@/components/Clients";
+import ScrollUp from "@/components/Common/ScrollUp";
+import Contact from "@/components/Contact";
+import Faq from "@/components/Faq";
+import Features from "@/components/Features";
+import Hero from "@/components/Hero";
+import Pricing from "@/components/Pricing";
+import Team from "@/components/Team";
+import Testimonials from "@/components/Testimonials";
+import { getAllPosts } from "@/utils/markdown";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Heroic SFS",
+  description: "Free Next.js SaaS Boilerplate and Starter Kit designed and built for SaaS startups. It comes with all necessary integrations, pages, and components you need to launch a feature-rich SaaS websites.",
+};
 
 export default function Home() {
+  const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug"]);
+
   return (
-    <main className="relative bg-black-100 flex justify-items-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-      <div className="max-w-7xl w-full">
-        <h1>Home Page</h1>
-      </div>
+    <main>
+      <ScrollUp />
+      <Hero />
+      <Features />
+      <About />
+      <CallToAction />
+      <Pricing />
+      <Testimonials />
+      <Faq />
+      <Team />
+      <HomeBlogSection posts={posts} />
+      <Contact />
+      <Clients />
     </main>
   );
 }
