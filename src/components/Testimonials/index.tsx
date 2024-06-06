@@ -34,16 +34,15 @@ const testimonialData: Testimonial[] = [
 
 const Testimonials = () => {
   return (
-    <section className="bg-gray-1 py-20 dark:bg-dark-2 md:py-[120px]">
-      <div className="container px-4">
+    <section className="bg-black text-yellow-500 py-20 dark:text-yellow-500 md:py-[120px]">
+      <div className="container mx-auto px-4">
         <SectionTitle
           subtitle="Testimonials"
-          title="What our Client Say"
+          title="What our Clients Say"
           paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
           width="640px"
           center
         />
-
         <div className="mt-[60px] flex flex-wrap lg:mt-20 gap-y-8">
           {testimonialData.map((testimonial, i) => (
             <SingleTestimonial key={i} testimonial={testimonial} />

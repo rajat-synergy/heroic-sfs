@@ -22,17 +22,17 @@ const Hero = () => {
                 className="hero-content wow fadeInUp mx-auto max-w-[780px] text-center"
                 data-wow-delay=".2s"
               >
-                <h1 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
+                <h1 className="mb-6 text-3xl font-bold leading-snug text-yellow-500 sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
                   Experience Digital Excellence: Your Gateway To Success
                 </h1>
-                <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
+                <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-yellow-500 sm:text-lg sm:leading-[1.44]">
                   Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
                 </p>
                 <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>
                     <Link
                       href="https://nextjstemplates.com/templates/play"
-                      className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2"
+                      className="inline-flex items-center justify-center bg-black bg-opacity-100 px-6 py-3 text-base font-medium text-yellow-500 duration-300 ease-in-out hover:bg-opacity-50 hover:text-yellow-500 rounded-full"
                     >
                       Talk to an expert
                     </Link>

@@ -21,7 +21,7 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
   return (
     <div className="w-full px-4 md:w-1/2 lg:w-1/3">
       <div
-        className="rounded-xl bg-white px-4 py-[30px] shadow-testimonial dark:bg-dark sm:px-[30px]"
+        className="rounded-xl text-yellow-500 px-4 py-[30px] shadow-testimonial dark:bg-dark sm:px-[30px]"
         data-wow-delay=".1s"
       >
         <div className="mb-[18px] flex items-center gap-[2px]">
@@ -36,7 +36,6 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
           <div className="h-[50px] w-[50px] overflow-hidden rounded-full">
             <Image src={image} alt={name} width={50} height={50} />
           </div>
-
           <div>
             <h3 className="text-sm font-semibold text-dark dark:text-white">
               {name}
