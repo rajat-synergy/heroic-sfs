@@ -36,28 +36,6 @@ const services: Service[] = [
   },
 ];
 
-// interface ServiceCardProps {
-//   title: string;
-//   description: string;
-//   buttonText: string;
-// }
-
-// const ServiceCard: React.FC<ServiceCardProps> = ({
-//   title,
-//   description,
-//   buttonText,
-// }) => {
-//   return (
-//     <div className="p-6 rounded-lg shadow-md bg-gray-800 text-white">
-//       <h3 className="text-xl font-bold mb-4">{title}</h3>
-//       <p className="text-gray-400 mb-4">{description}</p>
-//       <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-full">
-//         {buttonText}
-//       </button>
-//     </div>
-//   );
-// };
-
 
 const Features = () => {
   return (
