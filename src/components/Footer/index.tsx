@@ -21,14 +21,14 @@ const Footer = () => {
                   className="max-w-full"
                 />
               </Link>
-              <p className="mb-8 max-w-[270px] text-base text-yellow-500">
+              <p className="mb-8 max-w-[270px] text-base themeColor">
                 13 Years of Experience
               </p>
               <div className="-mx-3 flex items-center">
                 <a
                   aria-label="social link"
                   href="/#"
-                  className="px-3 text-yellow-500 hover:text-yellow-500"
+                  className="px-3 themeColor hover:themeColor"
                 >
                   <svg
                     width="22"
@@ -44,7 +44,7 @@ const Footer = () => {
                 <a
                   aria-label="social link"
                   href="/#"
-                  className="px-3 text-yellow-500 hover:text-yellow-500"
+                  className="px-3 themeColor hover:themeColor"
                 >
                   <svg
                     width="22"
@@ -60,7 +60,7 @@ const Footer = () => {
                 <a
                   aria-label="social link"
                   href="/#"
-                  className="px-3 text-yellow-500 hover:text-yellow-500"
+                  className="px-3 themeColor hover:themeColor"
                 >
                   <svg
                     width="22"
@@ -78,7 +78,7 @@ const Footer = () => {
                 <a
                   aria-label="social link"
                   href="/#"
-                  className="px-3 text-yellow-500 hover:text-yellow-500"
+                  className="px-3 themeColor hover:themeColor"
                 >
                   <svg
                     width="22"
@@ -96,14 +96,14 @@ const Footer = () => {
           </div>
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
             <div className="mb-10 w-full">
-              <h4 className="mb-9 text-lg font-semibold text-yellow-500">
+              <h4 className="mb-9 text-lg font-semibold themeColor">
                 About Us
               </h4>
               <ul>
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-yellow-500 hover:text-primary"
+                    className="mb-3 inline-block text-base themeColor hover:text-primary"
                   >
                     Home
                   </a>
@@ -111,7 +111,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-yellow-500 hover:text-primary"
+                    className="mb-3 inline-block text-base themeColor hover:text-primary"
                   >
                     Features
                   </a>
@@ -119,7 +119,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-yellow-500 hover:text-primary"
+                    className="mb-3 inline-block text-base themeColor hover:text-primary"
                   >
                     About
                   </a>
@@ -127,7 +127,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-yellow-500 hover:text-primary"
+                    className="mb-3 inline-block text-base themeColor hover:text-primary"
                   >
                     Testimonial
                   </a>
@@ -137,14 +137,14 @@ const Footer = () => {
           </div>
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
             <div className="mb-10 w-full">
-              <h4 className="mb-9 text-lg font-semibold text-yellow-500">
+              <h4 className="mb-9 text-lg font-semibold themeColor">
                 Features
               </h4>
               <ul>
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-yellow-500 hover:text-primary"
+                    className="mb-3 inline-block text-base themeColor hover:text-primary"
                   >
                     How it works
                   </a>
@@ -152,7 +152,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-yellow-500 hover:text-primary"
+                    className="mb-3 inline-block text-base themeColor hover:text-primary"
                   >
                     Privacy policy
                   </a>
@@ -160,7 +160,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-yellow-500 hover:text-primary"
+                    className="mb-3 inline-block text-base themeColor hover:text-primary"
                   >
                     Terms of Service
                   </a>
@@ -168,7 +168,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-yellow-500 hover:text-primary"
+                    className="mb-3 inline-block text-base themeColor hover:text-primary"
                   >
                     Refund policy
                   </a>
@@ -178,14 +178,14 @@ const Footer = () => {
           </div>
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
             <div className="mb-10 w-full">
-              <h4 className="mb-9 text-lg font-semibold text-yellow-500">
+              <h4 className="mb-9 text-lg font-semibold themeColor">
                 Our Products
               </h4>
               <ul>
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-yellow-500 hover:text-primary"
+                    className="mb-3 inline-block text-base themeColor hover:text-primary"
                   >
                     LineIcons
                   </a>
@@ -193,7 +193,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-yellow-500 hover:text-primary"
+                    className="mb-3 inline-block text-base themeColor hover:text-primary"
                   >
                     Next.js Templates
                   </a>
@@ -201,7 +201,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-yellow-500 hover:text-primary"
+                    className="mb-3 inline-block text-base themeColor hover:text-primary"
                   >
                     TailAdmin
                   </a>
@@ -209,7 +209,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-yellow-500 hover:text-primary"
+                    className="mb-3 inline-block text-base themeColor hover:text-primary"
                   >
                     PlainAdmin
                   </a>
@@ -219,14 +219,14 @@ const Footer = () => {
           </div>
           <div className="w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12">
             <div className="mb-10 w-full">
-              <h4 className="mb-9 text-lg font-semibold text-yellow-500">
+              <h4 className="mb-9 text-lg font-semibold themeColor">
                 Useful Links
               </h4>
               <ul>
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-yellow-500 hover:text-primary"
+                    className="mb-3 inline-block text-base themeColor hover:text-primary"
                   >
                     FAQ
                   </a>
@@ -234,7 +234,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-yellow-500 hover:text-primary"
+                    className="mb-3 inline-block text-base themeColor hover:text-primary"
                   >
                     Blogs
                   </a>
@@ -242,7 +242,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-yellow-500 hover:text-primary"
+                    className="mb-3 inline-block text-base themeColor hover:text-primary"
                   >
                     Support
                   </a>
@@ -250,7 +250,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-yellow-500 hover:text-primary"
+                    className="mb-3 inline-block text-base themeColor hover:text-primary"
                   >
                     About
                   </a>
@@ -269,19 +269,19 @@ const Footer = () => {
                 <div className="-mx-3 flex items-center justify-center md:justify-start">
                   <a
                     href="/#"
-                    className="px-3 text-base text-yellow-500 hover:text-yellow-500 hover:underline"
+                    className="px-3 text-base themeColor hover:themeColor hover:underline"
                   >
                     Privacy policy
                   </a>
                   <a
                     href="/#"
-                    className="px-3 text-base text-yellow-500 hover:text-yellow-500 hover:underline"
+                    className="px-3 text-base themeColor hover:themeColor hover:underline"
                   >
                     Legal notice
                   </a>
                   <a
                     href="/#"
-                    className="px-3 text-base text-yellow-500 hover:text-yellow-500 hover:underline"
+                    className="px-3 text-base themeColor hover:themeColor hover:underline"
                   >
                     Terms of service
                   </a>
@@ -290,7 +290,7 @@ const Footer = () => {
             </div>
             <div className="w-full px-4 md:w-1/3 lg:w-1/2">
               <div className="my-1 flex justify-center md:justify-end">
-                <p className="text-base text-yellow-500">
+                <p className="text-base themeColor">
                   Designed and Developed by{" "}
                   <a
                     href="https://tailgrids.com"

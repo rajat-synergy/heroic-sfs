@@ -145,7 +145,7 @@ const Header = () => {
                               onClick={navbarToggleHandler}
                               scroll={false}
                               href={menuItem.path}
-                              className={`ud-menu-scroll flex py-2 text-base text-yellow-500 group-hover:text-yellow-500 dark:text-yellow-500 dark:group-hover:text-yellow-500 lg:inline-flex lg:px-0 lg:py-6 ${pathUrl === menuItem?.path && "text-yellow-500"
+                              className={`ud-menu-scroll flex py-2 text-base themeColor group-hover:themeColor dark:themeColor dark:group-hover:themeColor lg:inline-flex lg:px-0 lg:py-6 ${pathUrl === menuItem?.path && "themeColor"
                                 }`}
                             >
                               {menuItem.title}
@@ -155,11 +155,11 @@ const Header = () => {
                               scroll={false}
                               href={menuItem.path}
                               className={`ud-menu-scroll flex py-2 text-base lg:inline-flex lg:px-0 lg:py-6 ${sticky
-                                ? "text-yellow-500 group-hover:text-yellow-500 dark:text-yellow-500 dark:group-hover:text-yellow-500"
-                                : "text-body-color dark:text-yellow-500 lg:text-yellow-500"
+                                ? "themeColor group-hover:themeColor themeColor group-hover:themeColor"
+                                : "text-body-color themeColor lg:themeColor"
                                 } ${pathUrl === menuItem?.path &&
                                 sticky &&
-                                "!text-yellow-500"
+                                "!themeColor"
                                 }`}
                             >
                               {menuItem.title}
@@ -248,7 +248,7 @@ const Header = () => {
 
                 <button
                   onClick={() => signOut()}
-                  className="signUpBtn bg-black bg-opacity-100 px-6 py-3 text-base font-medium text-yellow-500 duration-300 ease-in-out hover:bg-opacity-50 hover:text-yellow-500 rounded-full"
+                  className="signUpBtn bg-black bg-opacity-100 px-6 py-3 text-base font-medium themeColor duration-300 ease-in-out hover:bg-opacity-50 themeColor rounded-full"
                 rounded-full>
                   Book a Meeting
                 </button>

@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from 'next/image';
+
 
 const CallToAction = () => {
   return (
@@ -11,54 +13,66 @@ const CallToAction = () => {
           With 13+ years of rich EXPERIENCE
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-black p-8 rounded-lg shadow-lg">
-            <img
-              src="/awards-images/appfutura-award.png"
-              alt="Appfutura Award"
-              className="w-full h-auto mb-4"
+          <div className="bg-black rounded-lg shadow-lg flex flex-col items-center">
+            <Image
+              src="/images/winwin.png"
+              alt="Guidewire Award"
+              className="w-6/12 mb-4"
+              width={300} 
+              height={150}
             />
             <p className="text-gray-400">Top Web Development Company</p>
           </div>
-          <div className="bg-black p-8 rounded-lg shadow-lg">
-            <img
-              src="/awards-images/guidewire-award.png"
+          <div className="bg-black rounded-lg shadow-lg flex flex-col items-center">
+            <Image
+              src="/images/winwin.png"
               alt="Guidewire Award"
-              className="w-full h-auto mb-4"
+              className="w-6/12 mb-4"
+              width={300} 
+              height={150}
             />
             <p className="text-gray-400">Top Software Development Company</p>
           </div>
-          <div className="bg-black p-8 rounded-lg shadow-lg">
-            <img
-              src="/awards-images/golden-trophy.png"
-              alt="Golden Trophy"
-              className="w-full h-auto mb-4"
+          <div className="bg-black rounded-lg shadow-lg flex flex-col items-center">
+            <Image
+              src="/images/winwin.png"
+              alt="Guidewire Award"
+              className="w-6/12 mb-4"
+              width={300} 
+              height={150}
             />
             <p className="text-gray-400">Digital Trophy</p>
           </div>
-          <div className="bg-black p-8 rounded-lg shadow-lg">
-            <img
-              src="/awards-images/golden-trophy-2.png"
-              alt="Golden Trophy"
-              className="w-full h-auto mb-4"
+          {/* <div className="bg-black rounded-lg shadow-lg flex flex-col items-center">
+            <Image
+              src="/images/winwin.png"
+              alt="Guidewire Award"
+              className="w-6/12 mb-4"
+              width={300} 
+              height={150}
             />
             <p className="text-gray-400">Digital Trophy</p>
           </div>
-          <div className="bg-black p-8 rounded-lg shadow-lg">
-            <img
-              src="/awards-images/golden-trophy-3.png"
-              alt="Golden Trophy"
-              className="w-full h-auto mb-4"
+          <div className="bg-black rounded-lg shadow-lg flex flex-col items-center">
+            <Image
+              src="/images/winwin.png"
+              alt="Guidewire Award"
+              className="w-6/12 mb-4"
+              width={300} 
+              height={150}
             />
             <p className="text-gray-400">Digital Trophy</p>
           </div>
-          <div className="bg-black p-8 rounded-lg shadow-lg">
-            <img
-              src="/awards-images/golden-trophy-4.png"
-              alt="Golden Trophy"
-              className="w-full h-auto mb-4"
+          <div className="bg-black rounded-lg shadow-lg flex flex-col items-center">
+            <Image
+              src="/images/winwin.png"
+              alt="Guidewire Award"
+              className="w-6/12 mb-4"
+              width={300} 
+              height={150}
             />
             <p className="text-gray-400">Digital Trophy</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

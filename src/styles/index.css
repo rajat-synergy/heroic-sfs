@@ -75,3 +75,11 @@ body {
 .blog-details h3 {
   @apply text-dark mb-6 text-2xl font-bold dark:text-white sm:text-[28px] sm:leading-[40px];
 }
+
+.themeColor{
+  color: #ebc373;
+}
+
+.bgthemeColor {
+  background-color: #ebc373;
+}

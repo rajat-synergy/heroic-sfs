@@ -61,11 +61,11 @@ const services: Service[] = [
 
 const Features = () => {
   return (
-    <section className="bg-gray-900 text-white py-12">
+    <section className="bg-gray-900 text-white py-24">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
           <div>
-            <h2 className="text-5xl font-bold text-yellow-500 mb-6">
+            <h2 className="text-5xl font-bold themeColor mb-6">
               Innovative Services <br /> For Your Unique <br /> Needs
             </h2>
             <p className="text-gray-400 py-5 text-3xl mb-8">
@@ -76,16 +76,16 @@ const Features = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {services.map((service, index) => (
                 <div key={index} className="bg-gray-800 px-6 py-3 rounded-lg shadow-lg">
-                  <h3 className="font-semibold text-yellow-500">
+                  <h3 className="font-semibold themeColor">
                     {service.title}
                   </h3>
                   <p className="text-gray-400 text-sm">
                     {service.description}
                   </p>
-                  <a href={service.link} className="text-yellow-500 hover:text-yellow-600 font-semibold py-0 text-sm pe-5">
+                  <a href={service.link} className="themeColor hover:text-yellow-600 font-semibold py-0 text-sm pe-5">
                     Read More...
                   </a>
-                  <button className="text-sm mt-4 bg-yellow-500 text-gray-900 font-bold py-2 px-4 rounded-full hover:bg-yellow-600">
+                  <button className="text-sm mt-4 bgthemeColor text-gray-900 font-bold py-2 px-4 rounded-full hover:bg-yellow-600">
                     {service.buttonText}
                   </button>
                 </div>
