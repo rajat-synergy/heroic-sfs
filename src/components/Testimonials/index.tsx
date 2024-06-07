@@ -32,8 +32,20 @@ const testimonialData: Testimonial[] = [
   },
 ];
 
+const testimonialSingleData: Testimonial = {
+  id: 1,
+  name: "Sabo Masties",
+  designation: "Founder @ Rolex",
+  content:
+    "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+  image: "/images/testimonials/author-01.png",
+  star: 5,
+}
+
+
 const Testimonials = () => {
   return (
+   <>
     <section className="bg-black text-yellow-500 py-24 dark:text-yellow-500 md:py-[120px]">
       <div className="container mx-auto px-4">
         <SectionTitle title="Read Our Blog" width="640px" center />
@@ -42,8 +54,19 @@ const Testimonials = () => {
             <SingleTestimonial key={i} testimonial={testimonial} />
           ))}
         </div>
+        <div className="mt-[60px] flex lg:mt-20 place-content-center">
+          <SingleTestimonial testimonial={testimonialSingleData} />
+        </div>
       </div>
     </section>
+    <section className="bg-black text-yellow-500 py-24 dark:text-yellow-500 md:py-[120px]">
+      <div className="container mx-auto px-4">
+        <SectionTitle title="Read Our Blog" width="640px" center />
+        <div className="mt-[60px] flex lg:mt-20 place-content-center">
+          <SingleTestimonial testimonial={testimonialSingleData} />
+        </div>
+      </div>
+    </section></>
   );
 };
 

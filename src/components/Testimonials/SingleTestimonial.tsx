@@ -7,6 +7,7 @@ const starIcon = (
 );
 
 const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
+  
   const { star, name, image, content, designation } = testimonial;
 
   let ratingIcons = [];
