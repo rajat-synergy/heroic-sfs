@@ -1,72 +1,76 @@
 import { Testimonial } from "@/types/testimonial";
 import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
-
-const testimonialData: Testimonial[] = [
-  {
-    id: 1,
-    name: "Sabo Masties",
-    designation: "Founder @ Rolex",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/author-01.png",
-    star: 5,
-  },
-  {
-    id: 2,
-    name: "Margin Gesmu",
-    designation: "Founder @ UI Hunter",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/author-02.png",
-    star: 5,
-  },
-  {
-    id: 3,
-    name: "William Smith",
-    designation: "Founder @ Trorex",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/author-03.png",
-    star: 5,
-  },
-];
-
-const testimonialSingleData: Testimonial = {
-  id: 1,
-  name: "Sabo Masties",
-  designation: "Founder @ Rolex",
-  content:
-    "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-  image: "/images/testimonials/author-01.png",
-  star: 5,
-}
+import Image from 'next/image';
 
 
 const Testimonials = () => {
   return (
-   <>
-    <section className="bg-black text-yellow-500 py-24 dark:text-yellow-500 md:py-[120px]">
-      <div className="container mx-auto px-4">
-        <SectionTitle title="Read Our Blog" width="640px" center />
-        <div className="mt-[60px] flex flex-wrap lg:mt-20 gap-y-8">
-          {testimonialData.map((testimonial, i) => (
-            <SingleTestimonial key={i} testimonial={testimonial} />
-          ))}
+    <section className="blog-section">
+      <div className="container">
+        <div className="blog-head">
+          <h2>Read our blog</h2>
         </div>
-        <div className="mt-[60px] flex lg:mt-20 place-content-center">
-          <SingleTestimonial testimonial={testimonialSingleData} />
+      </div>
+      <div className="blog-slider">
+        <div className="blog-box theme-light-border-bg theme-space-light">
+          <p className="large-pera">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.</p>
+          <div className="blog-user">
+            <div className="user-img">
+              <Image src="/images/blog-user1.png" width={45} height={45} alt="" />
+            </div>
+            <div className="user-info">
+              <h5 className="blog-user-head">Sahil Hasan</h5>
+              <p className="blog-user-pera">Founder @ Dots</p>
+            </div>
+          </div>
+        </div>
+        <div className="blog-box theme-light-border-bg theme-space-light">
+          <p className="large-pera">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.</p>
+          <div className="blog-user">
+            <div className="user-img">
+              <Image src="/images/blog-user2.png" width={45} height={45} alt="" />
+            </div>
+            <div className="user-info">
+              <h5 className="blog-user-head">Patrick Zhang</h5>
+              <p className="blog-user-pera">Tech Lead @ Passes</p>
+            </div>
+          </div>
+        </div>
+        <div className="blog-box theme-light-border-bg theme-space-light">
+          <p className="large-pera">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.</p>
+          <div className="blog-user">
+            <div className="user-img">
+              <Image src="/images/blog-user3.png" width={45} height={45} alt="" />
+            </div>
+            <div className="user-info">
+              <h5 className="blog-user-head">Cody Krainock</h5>
+              <p className="blog-user-pera">Engineering Lead @ Loop</p>
+            </div>
+          </div>
+        </div>
+        <div className="blog-box theme-light-border-bg theme-space-light">
+          <p className="large-pera">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.</p>
+          <div className="blog-user">
+            <div className="user-img">
+              <Image src="/images/blog-user4.png" width={45} height={45} alt="" />
+            </div>
+            <div className="user-info">
+              <h5 className="blog-user-head">Mit Shah</h5>
+              <p className="blog-user-pera">COO @ Method Financial</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <section className="bg-black text-yellow-500 py-24 dark:text-yellow-500 md:py-[120px]">
-      <div className="container mx-auto px-4">
-        <SectionTitle title="Read Our Blog" width="640px" center />
-        <div className="mt-[60px] flex lg:mt-20 place-content-center">
-          <SingleTestimonial testimonial={testimonialSingleData} />
-        </div>
-      </div>
-    </section></>
   );
 };
 

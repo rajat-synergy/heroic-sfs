@@ -5,8 +5,8 @@
 const nextConfig = {
   trailingSlash: true,
   output: 'export',
-  distDir: '../sfs',
-  basePath:"/heroic",
+  // distDir: '../sfs',
+  // basePath:"/heroic",
   eslint: {
     ignoreDuringBuilds: true,
   },

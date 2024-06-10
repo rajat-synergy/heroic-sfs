@@ -1,6 +1,8 @@
 import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
+import Image from "next/image";
+
 
 interface Service {
   title: string;
@@ -61,35 +63,68 @@ const services: Service[] = [
 
 const Features = () => {
   return (
-    <section className="bg-gray-900 text-white py-24">
-      <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-          <div>
-            <h2 className="text-5xl font-bold themeColor mb-6">
-              Innovative Services <br /> For Your Unique <br /> Needs
-            </h2>
-            <p className="text-gray-400 py-5 text-3xl mb-8">
-              Lorem ipsum is placeholder text <br /> commonly used in the graphic, print
-            </p>
+    <section className="services theme-bg-primary ">
+      <div className="container">
+        <div className="services-banner">
+          <div className=" services-head">
+            <div className="services-info">
+              <h2>Innovative Services For Your Unique Needs</h2>
+              <p>Lorem ipsum is placeholder text
+                commonly used in the graphic print.</p>
+            </div>
           </div>
-          <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {services.map((service, index) => (
-                <div key={index} className="bg-gray-800 px-6 py-3 rounded-lg shadow-lg">
-                  <h3 className="font-semibold themeColor">
-                    {service.title}
-                  </h3>
-                  <p className="text-gray-400 text-sm">
-                    {service.description}
-                  </p>
-                  <a href={service.link} className="themeColor hover:text-yellow-600 font-semibold py-0 text-sm pe-5">
-                    Read More...
-                  </a>
-                  <button className="text-sm mt-4 bgthemeColor text-gray-900 font-bold py-2 px-4 rounded-full hover:bg-yellow-600">
-                    {service.buttonText}
-                  </button>
+          <div className=" services-box">
+            <div className="services-top-banner">
+              <div className="services-box-right">
+                <div className="card-box theme-border-bg theme-space  theme-gradient-gtb">
+                  <h4 className="mb-2">Staffing Solutions</h4>
+                  <p className="pera-small">Highlight your meticulous recruitment process and commitment to finding the best
+                    talent. Showcase success stories of placements in leading companies.</p>
+                  <div className="services-link">
+                    <a href="#" className="theme-text-primary">Read More...</a>
+                    <a href="#" className="theme-btn-secondary">Talk to an expert
+                      <Image src="/images/right-arrow.svg" alt="" width={12} height={12} className="ms-2" /></a>
+                  </div>
                 </div>
-              ))}
+                <div className="card-box theme-border-bg theme-space theme-gradient-btg">
+                  <h4 className="">Staffing Solutions</h4>
+                  <p className="pera-small">Highlight your meticulous recruitment process
+                    and commitment to finding the best talent.
+                    Showcase success stories of placements in
+                    leading companies.</p>
+                  <div className="services-link">
+                    <a href="#" className="theme-text-primary">Read More...</a>
+                    <a href="#" className="theme-btn-secondary">Talk to an expert 
+                      <Image src="/images/right-arrow.svg" alt="" width={12} height={12}/></a>
+                  </div>
+                </div>
+              </div>
+              <div className="services-box-right last-services">
+                <div className="card-box theme-border-bg theme-space  theme-gradient-gtb">
+                  <h4 className="">Staffing Solutions</h4>
+                  <p className="pera-small">Highlight your meticulous recruitment process
+                    and commitment to finding the best talent.
+                    Showcase success stories of placements in
+                    leading companies.</p>
+                  <div className="services-link">
+                    <a href="#" className="theme-text-primary">Read More...</a>
+                    <a href="#" className="theme-btn-secondary">Talk to an expert <Image src="/images/right-arrow.svg"
+                      alt="" width={12} height={12}/></a>
+                  </div>
+                </div>
+                <div className="card-box theme-border-bg theme-space theme-gradient-btg">
+                  <h4 className="">Staffing Solutions</h4>
+                  <p className="pera-small">Highlight your meticulous recruitment process
+                    and commitment to finding the best talent.
+                    Showcase success stories of placements in
+                    leading companies.</p>
+                  <div className="services-link">
+                    <a href="#" className="theme-text-primary">Read More...</a>
+                    <a href="#" className="theme-btn-secondary">Talk to an expert <Image src="/images/right-arrow.svg"
+                      alt="" width={12} height={12}/></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

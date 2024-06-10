@@ -30,18 +30,18 @@ export default function RootLayout({
           <PreLoader />
         ) : (
           <>
-          {/* // <SessionProvider>
-          //   <ThemeProvider
-          //     attribute="class"
-          //     enableSystem={false}
-          //     defaultTheme="dark"
-          //   > */}
-              <Header />
+            <ThemeProvider
+              attribute="class"
+              enableSystem={false}
+              defaultTheme="dark"
+            >
+              {/* // <SessionProvider>*/}
+            
               {children}
               <Footer />
               {/* <ScrollToTop />
-            </ThemeProvider>
           </SessionProvider> */}
+            </ThemeProvider>
           </>
         )}
       </body>

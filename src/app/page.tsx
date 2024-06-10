@@ -6,8 +6,8 @@ import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Faq from "@/components/Faq";
 import Features from "@/components/Features";
+import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
 import ReadOurBlog from "@/components/ReadOurBlog";
 import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
@@ -21,6 +21,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
+      <Header />
       <ScrollUp />
       <Hero />
       <Features />
