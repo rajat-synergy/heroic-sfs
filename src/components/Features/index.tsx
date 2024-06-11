@@ -77,13 +77,13 @@ const Features = () => {
             <div className="services-top-banner">
               <div className="services-box-right">
                 <div className="card-box theme-border-bg theme-space  theme-gradient-gtb">
-                  <h4 className="mb-2">Staffing Solutions</h4>
+                  <h4>Staffing Solutions</h4>
                   <p className="pera-small">Highlight your meticulous recruitment process and commitment to finding the best
                     talent. Showcase success stories of placements in leading companies.</p>
                   <div className="services-link">
                     <a href="#" className="theme-text-primary">Read More...</a>
                     <a href="#" className="theme-btn-secondary">Talk to an expert
-                      <Image src="/images/right-arrow.svg" alt="" width={12} height={12} className="ms-2" /></a>
+                      <Image src="/images/right-arrow.svg" alt="" width={12} height={12} /></a>
                   </div>
                 </div>
                 <div className="card-box theme-border-bg theme-space theme-gradient-btg">

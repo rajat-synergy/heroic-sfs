@@ -1,0 +1,6 @@
+@media (max-width: 1440px) { 
+    .container{padding-left: 40px; padding-right: 40px;}
+    h2 {font-size: 52px;margin-bottom: 33px;}
+    .services .services-info {padding-right: 150px;}
+    .services .services-link{display: block;}
+ }

@@ -1,55 +1,28 @@
 
-
-/* @font-face {
-  font-family: 'Causten';
-  src: url('../../public/fonts/');
-  src: url('../fonts/causten/Causten-SemiBold.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/causten/Causten-SemiBold.woff2') format('woff2'),
-      url('../fonts/causten/Causten-SemiBold.woff') format('woff'),
-      url('../fonts/causten/Causten-SemiBold.ttf') format('truetype'),
-      url('../fonts/causten/Causten-SemiBold.svg#Causten-SemiBold') format('svg');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
- */
-
-
-
-
-
-
-
-
-
-
-/* 
-
  @font-face {
   font-family: 'Causten';
-  src: url('../fonts/causten/Causten-SemiBold.eot');
-  src: url('../fonts/causten/Causten-SemiBold.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/causten/Causten-SemiBold.woff2') format('woff2'),
-      url('../fonts/causten/Causten-SemiBold.woff') format('woff'),
-      url('../fonts/causten/Causten-SemiBold.ttf') format('truetype'),
-      url('../fonts/causten/Causten-SemiBold.svg#Causten-SemiBold') format('svg');
+  src: url('../../public/fonts/causten/Causten-SemiBold.eot');
+  src: url('../../public/fonts/causten/Causten-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../../public/fonts/causten/Causten-SemiBold.woff2') format('woff2'),
+      url('../../public/fonts/causten/Causten-SemiBold.woff') format('woff'),
+      url('../../public/fonts/causten/Causten-SemiBold.ttf') format('truetype'),
+      url('../../public/fonts/causten/Causten-SemiBold.svg#Causten-SemiBold') format('svg');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Satoshi';
-  src: url('../fonts/satoshi/Satoshi-Medium.eot');
-  src: url('../fonts/satoshi/Satoshi-Medium.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/satoshi/Satoshi-Medium.woff2') format('woff2'),
-      url('../fonts/satoshi/Satoshi-Medium.woff') format('woff'),
-      url('../fonts/satoshi/Satoshi-Medium.ttf') format('truetype'),
-      url('../fonts/satoshi/Satoshi-Medium.svg#Satoshi-Medium') format('svg');
+  src: url('../../public/fonts/satoshi/Satoshi-Medium.eot');
+  src: url('../../public/fonts/satoshi/Satoshi-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../../public/fonts/satoshi/Satoshi-Medium.woff2') format('woff2'),
+      url('../../public/fonts/satoshi/Satoshi-Medium.woff') format('woff'),
+      url('../../public/fonts/satoshi/Satoshi-Medium.ttf') format('truetype'),
+      url('../../public/fonts/satoshi/Satoshi-Medium.svg#Satoshi-Medium') format('svg');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-}   */
+}   
 * {
   box-sizing: border-box;
 }
@@ -59,8 +32,10 @@ body {
 }
 .container {
   max-width: 1362px;
-  margin: auto;
+  margin: 0 auto;
   width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 a {
@@ -91,6 +66,8 @@ h1 {
 }
 h2 {
   font-size: 58px;
+  line-height: normal;
+  margin-bottom: 43px;
 }
 h3 {
   font-size: 48px;
@@ -390,6 +367,11 @@ header .banner-btn i {
 /* .services {
   height: 690px;
 } */
+
+.services .card-box h4{margin-bottom: 8px;}
+.services .services-link a img{display: inline-block;    margin-left: 6px;
+  margin-bottom: 2px;}
+
 .services .services-box .services-box-right {
   width: calc(50% - 20px);
   margin-left: 10px;
@@ -399,6 +381,7 @@ header .banner-btn i {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 25px;
 }
 .services .services-head {
   width: 50%;
@@ -407,6 +390,7 @@ header .banner-btn i {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .services-banner {
@@ -649,7 +633,7 @@ footer .footer-bottom .container {
 footer .footer-bottom .container .footer-social-link {
   position: absolute;
   top: 21px;
-  right: 0;
+  right: 80px;
 }
 
 .blog-section .blog-slider {
