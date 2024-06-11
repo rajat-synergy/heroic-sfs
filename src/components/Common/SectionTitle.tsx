@@ -1,15 +1,15 @@
 const SectionTitle = ({
-  // subtitle,
   title,
-  // paragraph,
   width = "635px",
   center,
+  subtitle,
+  paragraph,
 }: {
-  // subtitle?: string;
   title: string;
-  // paragraph: string;
   width?: string;
   center?: boolean;
+  subtitle?: string;
+  paragraph?: string;
 }) => {
   return (
     <div className="-mx-4 flex flex-wrap">

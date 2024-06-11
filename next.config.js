@@ -1,4 +1,18 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+/**
+ * @type {import('next').NextConfig}
+ */
 
-module.exports = nextConfig
+const nextConfig = {
+  trailingSlash: true,
+  output: 'export',
+  // distDir: '../sfs',
+  // basePath:"/heroic",
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  images: {
+    unoptimized: true,
+  },
+};
+
+module.exports = nextConfig;

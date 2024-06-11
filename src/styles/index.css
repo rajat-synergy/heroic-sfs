@@ -1,8 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("./custom.css");
+@import url("./media.css");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --back_ground: #000;
+  --light_ground: linear-gradient(90deg, #000000 0%, #434343 100%);
+  --home_card_boder: 3px solid #fde8bd4d;
+  --color: #ebc373;
+}
 
 body {
   font-family: "Inter", sans-serif;
@@ -30,7 +39,7 @@ body {
 }
 
 .sticky-menu .signUpBtn {
-  @apply bg-primary hover:bg-dark text-white hover:text-white;
+  @apply bg-primary text-white hover:bg-dark hover:text-white;
 }
 
 .navbarTogglerActive > span:nth-child(1) {
@@ -45,7 +54,7 @@ body {
 
 .blog-details,
 .blog-details p {
-  @apply text-body-color dark:text-dark-6 text-base leading-relaxed;
+  @apply text-base leading-relaxed text-body-color dark:text-dark-6;
 }
 
 .blog-details p {
@@ -53,7 +62,7 @@ body {
 }
 
 .blog-details strong {
-  @apply text-dark font-bold dark:text-white;
+  @apply font-bold text-dark dark:text-white;
 }
 
 .blog-details ul {
@@ -65,21 +74,30 @@ body {
 }
 
 .blog-details h1 {
-  @apply text-dark mb-8 text-3xl font-bold dark:text-white sm:text-4xl md:text-[40px] md:leading-[1.28];
+  @apply mb-8 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[40px] md:leading-[1.28];
 }
 
 .blog-details h2 {
-  @apply text-dark mb-8 text-2xl font-bold dark:text-white sm:text-3xl md:text-[35px] md:leading-[1.28];
+  @apply mb-8 text-2xl font-bold text-dark dark:text-white sm:text-3xl md:text-[35px] md:leading-[1.28];
 }
 
 .blog-details h3 {
-  @apply text-dark mb-6 text-2xl font-bold dark:text-white sm:text-[28px] sm:leading-[40px];
+  @apply mb-6 text-2xl font-bold text-dark dark:text-white sm:text-[28px] sm:leading-[40px];
 }
 
-.themeColor{
+.themeColor {
   color: #ebc373;
 }
 
 .bgthemeColor {
-  background-color: #ebc373;
+  background-color: var(--color);
+}
+
+.bg-black {
+  background: var(--back_ground) !important;
+}
+
+.home-card-gradient {
+  border: var(--home_card_boder);
+  background: var(--light_ground);
 }
