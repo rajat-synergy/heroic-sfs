@@ -475,6 +475,7 @@ header .banner-btn i {
 .award-aection .card-box {
   margin-bottom: 24px;
   text-align: center;
+  text-align: -webkit-center;
 }
 
 .award-aection {
