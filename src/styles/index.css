@@ -10,11 +10,18 @@
   --back_ground: #000;
   --light_ground: linear-gradient(90deg, #000000 0%, #434343 100%);
   --home_card_boder: 3px solid #fde8bd4d;
-  --color: #ebc373;
+  --color: rgb(235, 195, 115);
 }
 
 body {
   font-family: "Inter", sans-serif;
+}
+
+.loding__border {
+  border-top-color: transparent ;
+  border-right-color: var(--color) ;
+  border-bottom-color: var(--color) ;
+  border-left-color: var(--color);
 }
 
 .sticky-menu .navbar-logo {
