@@ -15,33 +15,33 @@ const Footer = () => {
           </div>
           <div className="footer-link">
             <h6>SERVICES</h6>
-            <ul>
-              <li><a href="#">Web Design Services</a></li>
-              <li><a href="#">Web Development Services</a></li>
-              <li><a href="#">Graphics Design</a></li>
-              <li><a href="#">Mobile App Development</a></li>
-              <li><a href="#">Hybrid App Development</a></li>
-              <li><a href="#">Web App Development Services</a></li>
-            </ul>
+            
+              <span><a href="#">Web Design Services</a> <img src="/images/footer-top-arrow.svg"></img> </span>
+              <span><a href="#">Web Development Services</a><img src="/images/footer-top-arrow.svg"></img></span>
+              <span><a href="#">Graphics Design</a><img src="/images/footer-top-arrow.svg"></img></span>
+              <span><a href="#">Mobile App Development</a><img src="/images/footer-top-arrow.svg"></img></span>
+              <span><a href="#">Hybrid App Development</a><img src="/images/footer-top-arrow.svg"></img></span>
+              <span><a href="#">Web App Development Services</a><img src="/images/footer-top-arrow.svg"></img></span>
+            
           </div>
           <div className="footer-link">
             <h6>SIGNATURE SERVICES</h6>
             <ul>
-              <li><a href="#">Quality Assurance Services</a></li>
-              <li><a href="#">GIS Application Development</a></li>
-              <li><a href="#">SaaS Application Development</a></li>
-              <li><a href="#">SaaS Application Testing</a></li>
-              <li><a href="#">Digital Transformation</a></li>
+              <span><a href="#">Quality Assurance Services</a><img src="/images/footer-top-arrow.svg"></img></span>
+              <span><a href="#">GIS Application Development</a><img src="/images/footer-top-arrow.svg"></img></span>
+              <span><a href="#">SaaS Application Development</a><img src="/images/footer-top-arrow.svg"></img></span>
+              <span><a href="#">SaaS Application Testing</a><img src="/images/footer-top-arrow.svg"></img></span>
+              <span><a href="#">Digital Transformation</a><img src="/images/footer-top-arrow.svg"></img></span>
             </ul>
           </div>
           <div className="footer-link">
             <h6>COMPANY</h6>
             <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Our Story</a></li>
-              <li><a href="#">Our Core Value</a></li>
-              <li><a href="#">Our Approach</a></li>
-              <li><a href="#">Careers</a></li>
+              <span><a href="#">About</a><img src="/images/footer-top-arrow.svg"></img></span>
+              <span><a href="#">Our Story</a><img src="/images/footer-top-arrow.svg"></img></span>
+              <span><a href="#">Our Core Value</a><img src="/images/footer-top-arrow.svg"></img></span>
+              <span><a href="#">Our Approach</a><img src="/images/footer-top-arrow.svg"></img></span>
+              <span><a href="#">Careers</a><img src="/images/footer-top-arrow.svg"></img></span>
             </ul>
           </div>
         </div>

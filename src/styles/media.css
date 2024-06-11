@@ -6,12 +6,6 @@
     .services .services-link a{display: block;}
     .services .services-link a.talk-btn {display: inline-block;margin-top: 10px;}
  }
- @media (max-width: 1200px){
-    h2 {font-size: 42px;margin-bottom: 28px;}
-    p {font-size: 22px;}
-    .services .services-info {padding-right: 50px;}
- }
-
 
  @media (max-width: 1280px){
     section {
@@ -27,8 +21,29 @@
     }
     .award-aection .award-logo{ width: 100%;}
     .award-aection .award-info {width: 100%; margin-bottom: 30px;}
-    
+    footer .footer-link {
+        width: calc(27% - 30px);
+    }
+    footer .footer-logo {
+        width: 25%;
+    }
+   
  }
+
+ 
+ @media (max-width: 1200px){
+    h2 {font-size: 42px;margin-bottom: 28px;}
+    h3 {font-size: 38px;}
+    p {font-size: 22px;}
+    .services .services-info {padding-right: 50px;}
+    .form-section .form-city-info {
+        width: calc(43% - 65px);
+       
+    }
+  
+ }
+
+
 
 
  @media (max-width: 1024px){
@@ -40,6 +55,41 @@
         padding: 50px 0px;
     }
     h2 {font-size: 36px;margin-bottom: 24px;}
+    h3 {font-size: 32px;}
+    p {
+        font-size: 18px;
+    }
+    .form-section .form-img {
+        width: 100%;
+    }
+    .form-section .form-info {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .form-section .form-city {
+        justify-content: space-between;
+    }
+    .form-section .form-city {
+     
+        margin-top: 20px;
+    }
+    .form-section .form-city-info {
+        width: calc(33% - 0px);
+        padding-top: 0px;
+       
+    }
+    .form-control {
+    
+        height: 35px;
+    
+    }
+   
+    footer .footer-logo {
+        width: 100%;margin-bottom: 30px;
+      }
+      footer .footer-link {
+        width: calc(33% - -2px);
+      }
  }
 
 
@@ -64,6 +114,28 @@
         width: calc(33% - 23px);
   
     }
+    footer .footer-link {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      footer .footer-link h6 {
+        padding-bottom: 5px;
+      }
+      footer .rights-info{
+        text-align: center;
+      }
+      footer .footer-bottom .container .footer-social-link {
+    
+        position: inherit;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+      footer .rights-info {
+       
+        padding-bottom: 10px;
+        margin-bottom: 5px;
+      }
+    
  
  }
 
