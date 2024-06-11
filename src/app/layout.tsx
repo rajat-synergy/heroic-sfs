@@ -10,37 +10,22 @@ import "../styles/prism-vsc-dark-plus.css";
 import { useEffect, useState } from "react";
 import PreLoader from "@/components/Common/PreLoader";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children, }: { children: React.ReactNode; }) {
+
   const [loading, setLoading] = useState<boolean>(true);
 
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 1000);
-  }, []);
+  useEffect(() => { setTimeout(() => setLoading(false), 1000) }, []);
 
   return (
     <html suppressHydrationWarning={true} className="!scroll-smooth" lang="en">
-      <head />
 
       <body>
-        {loading ? (
-          <PreLoader />
-        ) : (
+        {loading ? (<PreLoader />) : (
           <>
-            <ThemeProvider
-              attribute="class"
-              enableSystem={false}
-              defaultTheme="dark"
-            >
-              {/* // <SessionProvider>*/}
-            
+            <ThemeProvider attribute="class" enableSystem={false} defaultTheme="dark">
               {children}
+              <ScrollToTop />
               <Footer />
-              {/* <ScrollToTop />
-          </SessionProvider> */}
             </ThemeProvider>
           </>
         )}
