@@ -1,4 +1,32 @@
+
+
 /* @font-face {
+  font-family: 'Causten';
+  src: url('../../public/fonts/');
+  src: url('../fonts/causten/Causten-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/causten/Causten-SemiBold.woff2') format('woff2'),
+      url('../fonts/causten/Causten-SemiBold.woff') format('woff'),
+      url('../fonts/causten/Causten-SemiBold.ttf') format('truetype'),
+      url('../fonts/causten/Causten-SemiBold.svg#Causten-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+/* 
+
+ @font-face {
   font-family: 'Causten';
   src: url('../fonts/causten/Causten-SemiBold.eot');
   src: url('../fonts/causten/Causten-SemiBold.eot?#iefix') format('embedded-opentype'),
@@ -21,7 +49,7 @@
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-} */
+}   */
 * {
   box-sizing: border-box;
 }
@@ -319,7 +347,7 @@ header .home-menu nav ul li {
   display: inline-block;
 }
 header .home-menu nav ul li a {
-  padding: 0px 20px !important;
+  padding: 0px 12px !important;
   color: #1b1b1b;
   font-size: 16px;
   line-height: 14px;
@@ -359,9 +387,9 @@ header .banner-btn i {
 }
 
 /* ==================================     Banner section     ================================== */
-.services {
+/* .services {
   height: 690px;
-}
+} */
 .services .services-box .services-box-right {
   width: calc(50% - 20px);
   margin-left: 10px;
