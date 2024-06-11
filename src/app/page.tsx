@@ -22,6 +22,8 @@ export default function Home() {
   return (
     <main>
       <Header />
+
+      {/* <Header /> */}
       <ScrollUp />
       <Hero />
       <Features />

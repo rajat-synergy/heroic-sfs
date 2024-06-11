@@ -1,48 +1,70 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
 
 const Hero = () => {
+  const [isActive, setIsActive] = useState(false);
+
+  const toggleMenu = () => {
+    setIsActive(!isActive);
+    const navigation = document.querySelector('nav')
+    if (navigation) {
+        navigation.classList.toggle('active');
+        document.body.classList.toggle('active');
+      }
+  };
   return (
     <>
-      <section
-        id="home"
-        className="relative overflow-hidden bg-black pt-[120px] md:pt-[130px] lg:pt-[160px]"
-      >
-        <video autoPlay loop muted className="absolute inset-0 object-cover h-screen xl:h-auto opacity-30">
+      {/* <video autoPlay loop muted className="absolute inset-0 object-cover h-screen xl:h-auto opacity-30">
           <source
             src="/images/blog_second.mp4"
             type="video/mp4"
           />
-        </video>
-        <div className="container relative z-10">
-          <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 py-28">
-              <div
-                className="hero-content wow fadeInUp mx-auto max-w-[780px] text-center"
-                data-wow-delay=".2s"
-              >
-                <h1 className="mb-6 text-3xl font-bold leading-snug themeColor sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
-                  Experience Digital Excellence: Your Gateway To Success
-                </h1>
-                <p className="mx-auto mb-9 max-w-[600px] text-base font-medium themeColor sm:text-lg sm:leading-[1.44]">
-                  Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                </p>
-                <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
-                  <li>
-                    <Link
-                      href="https://nextjstemplates.com/templates/play"
-                      className="inline-flex items-center justify-center bg-black bg-opacity-100 px-6 py-3 text-base font-medium themeColor duration-300 ease-in-out hover:bg-opacity-50 hover:themeColor rounded-full"
-                    >
-                      Talk to an expert
-                    </Link>
-                  </li>
-                </ul>
+        </video> */}
+      <header>
+        <div className="container">
+          <div className="">
+            <div className=" header-banner">
+              <div className="home-menu theme-bg-light">
+                <div className="menu-logo">
+                  <a className="" href="#">
+                    <img src="images/header-logo.svg" />
+                  </a>
+                </div>
+                <nav>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                  <div className="close-menu" onClick={toggleMenu}></div>
+                </nav>
+                <div className="menu-btn">
+                  <a href="#" className="theme-btn-primary">Book a Meeting</a>
+                  <div className={`toggle ${isActive ? 'active' : ''}`} onClick={toggleMenu}>
+                    <div className="one"></div>
+                    <div className="two"></div>
+                    <div className="three"></div>
+                  </div>
+                </div>
+              </div>
+              <div className="banner">
+                <h1>Experience Digital Excellence:<br />Your Gateway To Success</h1>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
+                  previewing layouts and visual mockups.</p>
+                <div className="banner-btn  text-center">
+                  <a href="#" className="theme-btn">Talk to an expert</a>
+                  <img src="/images/circle.svg"></img>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </header>
     </>
   );
 };
