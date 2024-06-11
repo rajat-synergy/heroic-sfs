@@ -2,5 +2,87 @@
     .container{padding-left: 40px; padding-right: 40px;}
     h2 {font-size: 52px;margin-bottom: 33px;}
     .services .services-info {padding-right: 150px;}
-    .services .services-link{display: block;}
+    .services .services-link{display: inherit;}
+    .services .services-link a{display: block;}
+    .services .services-link a.talk-btn {display: inline-block;margin-top: 10px;}
+ }
+ @media (max-width: 1200px){
+    h2 {font-size: 42px;margin-bottom: 28px;}
+    p {font-size: 22px;}
+    .services .services-info {padding-right: 50px;}
+ }
+
+
+ @media (max-width: 1280px){
+    section {
+        padding: 75px 0px;
+    }
+    .services-box {
+        width: 100%;
+       
+    }
+    .services .services-head {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .award-aection .award-logo{ width: 100%;}
+    .award-aection .award-info {width: 100%; margin-bottom: 30px;}
+    
+ }
+
+
+ @media (max-width: 1024px){
+    .container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    section {
+        padding: 50px 0px;
+    }
+    h2 {font-size: 36px;margin-bottom: 24px;}
+ }
+
+
+ @media (max-width: 768px){
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .services .services-head {
+        margin-bottom: 30px;
+    }
+    .about-head {
+        width: 100%;
+        margin-bottom: 50px;
+      }
+      
+      .about-img {
+        width: 100%;
+        justify-content: start;
+      }
+      .award-aection .award-banner-logo {
+        width: calc(33% - 23px);
+  
+    }
+ 
+ }
+
+ @media (max-width: 575px){
+    .services .services-box .services-box-right {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .services .last-services {margin-top:0;}
+    .award-aection .award-banner-logo {
+        width:100%;
+        margin-left: 0;
+        margin-right: 0;
+        
+  
+    }
+    .award-aection .award3,
+    .award-aection .award2 {
+        margin-top: 0px;
+    }
  }

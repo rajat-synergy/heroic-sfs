@@ -422,11 +422,7 @@ header .banner-btn i {
 }
 
 /* ==================================     About section     ================================== */
-.about-aection {
-  height: 770px;
-  display: flex;
-  align-items: center;
-}
+
 .about-banner {
   display: flex;
   flex-wrap: wrap;
@@ -435,17 +431,16 @@ header .banner-btn i {
 }
 
 .about-head {
-  width: 50%;
+  width: 48%;
 }
 
 .about-img {
-  width: 50%;
-  text-align: right;
+  width: 45%;
+  display: flex;
+  justify-content: end;
 }
 /* ==================================     Award section     ================================== */
-.award-aection {
-  height: 700px;
-}
+
 .award-aection .award2 {
   margin-top: 35px;
 }
