@@ -55,7 +55,7 @@ const Contact = () => {
               <textarea className="form-control theme-gradient-btg theme-border-bg" id="message">
               </textarea>
               <div className="form-submit">
-                <input type="submit" value="Get in touch" className="theme-btn" /> <i className="fa-solid fa-circle"></i>
+                <input type="submit" value="Get in touch" className="theme-btn" /><img src="/images/circle.svg"></img>
               </div>
             </form>
           </div>

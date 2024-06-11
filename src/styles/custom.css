@@ -151,8 +151,9 @@ ul li a {
   border: none;
   margin-bottom: 20px;
   border-radius: 0;
-  height: 40px;
+  height: 48px;
   width: 100%;
+  padding: 10px;
 }
 label {
   margin-bottom: 10px;
@@ -324,7 +325,7 @@ header .home-menu nav ul li {
   display: inline-block;
 }
 header .home-menu nav ul li a {
-  padding: 0px 12px !important;
+  padding: 0px 11px !important;
   color: #1b1b1b;
   font-size: 16px;
   line-height: 14px;
@@ -503,7 +504,10 @@ header .banner-btn i {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.form-section .form-info textarea {
 
+  height: 102px;
+}
 .form-section .form-box {
   width: 47%;
 }
@@ -512,9 +516,10 @@ header .banner-btn i {
   display: inline-block;
   position: relative;
   margin-top: 10px;
-}
 
-.form-section .form-submit i {
+}
+.form-section .form-submit input[type="submit"]{  cursor: pointer;}
+.form-section .form-submit img {
   position: absolute;
   right: 15px;
   top: 50%;
