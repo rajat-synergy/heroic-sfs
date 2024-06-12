@@ -70,6 +70,28 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
+      <div className="container">
+          <div className="blog-front-box">
+            <div className="theme-border-bg theme-space theme-gradient-btg">
+                <div className="blog-front-banner">
+                  <div className="blog-front-img">
+                  <Image src="/images/blog-client.jpg" width={230} height={260} alt="" />
+                  </div>
+                  <div className="blog-front-pera">
+                    <h6 className="blog-front-text">"Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat."</h6>
+                    <div className="blog-front-info">
+                    <h6 className="blog-front-text client-name">Aharon Levine</h6>
+                    <span>Head of Payments @ Melio</span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
     </section>
   );
 };
