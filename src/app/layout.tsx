@@ -4,7 +4,7 @@ import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.css';
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
-
+import "../styles/index.css"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
