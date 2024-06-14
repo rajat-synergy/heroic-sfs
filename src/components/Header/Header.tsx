@@ -1,5 +1,4 @@
 import React from 'react'
-import 'bootstrap/js/dist/collapse';
 
 const Header = () => {
     return (

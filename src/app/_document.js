@@ -18,8 +18,6 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="shortcut icon" href="media/icons/favicon.png" />
-          <script async src="https://static.addtoany.com/menu/page.js"></script>
-          <link rel="stylesheet" href="https://static.addtoany.com/menu/a2a.css" />
 
 
         </Head>
