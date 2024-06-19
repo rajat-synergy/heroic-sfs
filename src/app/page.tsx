@@ -1,11 +1,23 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import About from "@/components/About/About";
+import Services from "./services/page";
+import About from "./about/page";
+import Achievements from "./achievements/page";
+import Blog from "./blog/page";
 
-export default function Home() {
+
+
+
+const  Home = () => {
   return (
+    <>
     <main>
+      <Services />
       <About />
+      <Achievements />
+      <Blog />
     </main>
+    </>
   );
 }
+export default Home;
