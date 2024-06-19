@@ -20,6 +20,18 @@ const Header: React.FC = () => {
             window.removeEventListener('resize', handleResize);
         };
     }, []);
+
+
+    useEffect(() => {
+        if (collapsed) {
+            document.body.classList.add('collapsed');
+        } else {
+            document.body.classList.remove('collapsed');
+        }
+    }, [collapsed]);
+
+
+
     const toggleCollapse = () => {
         setCollapsed(!collapsed);
     };
